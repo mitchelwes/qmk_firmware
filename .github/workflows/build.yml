@@ -13,9 +13,9 @@ jobs:
       fail-fast: false
       matrix:
         keyboard:
-          - boardsource/technik_o
+          - aleblazer/zodiark
         keymap:
-          - mine
+          - default
 
     steps:
     - name: Checkout QMK Firmware
