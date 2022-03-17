@@ -14,6 +14,7 @@ jobs:
       matrix:
         keyboard:
           - aleblazer/zodiark
+          - crkbd/rev1/common
         keymap:
           - default
 
